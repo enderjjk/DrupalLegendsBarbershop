@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+	body{
+		font-size:0.55em;
+	}
+	.products button, .courses button, .products a.button-link, .courses a.button-link{
+		width:100%;
+		text-align:center;
+		padding-left:0;
+		padding-right:0;
+		line-height:30px;
+	}
+	.intro-box{
+		margin-top:0;
+	}
+	button, a.button-link{ line-height:30px; margin-bottom:10px;}
+	.intro-box h1{ font-size:3em; color:#fff; text-align:center; padding:120px 20px 80px 20px; }
+	.products button, .courses button, .products a.button-link, .courses a.button-link{ text-align:center; }
+	.our-video iframe {position:relative!important; left:0!important; margin-left:0!important; width:100%!important; }
+	.mobile-margin{ margin:10px 0; }
+	.scrollToTop{ bottom:0!important; top:auto!important; right:0!important; border:2px solid #b71b20; border-bottom:0; border-right:0; }
+	.footer-bottom p{ text-align:center; }
+	.Yc, .yc, .YC { width: 310px!important; }
+	.blogs-content .field-type-text-with-summary, .blogs-content .field-name-field-image, .image-and-body{
+		width:100%;
+		float:left;
+		margin-right:0;
+	}
+	.image-and-body .field-type-text-with-summary, .image-and-body .field-name-field-image{ width:100%; maring-right:0; }
+	.blogs-content .field-name-field-image img{ width:100%!important; height:100px; }
+	.tags-and-categories{
+		width:100%;
+		position:relative;
+		right:0;
+		top:0;
+		margin:20px 0;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.menu-main .menu-main-area li a{ font-size:1.2em; }
+}
+@media screen and (max-width: 1020px) and (min-width: 400px) {
+	.menu-main .menu-main-area li a{ font-size:0.9em; }
+}
